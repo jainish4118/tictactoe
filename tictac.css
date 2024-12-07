@@ -1,0 +1,54 @@
+ .main{
+    background-color: lightblue;
+ }
+ #navbar{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: cursive;
+    color:black ;
+    background-color: burlywood ;
+ }
+ #winner{
+justify-content: center;
+text-align: center;
+display: flex;
+font-size: 25px;
+font-family: cursive;
+ }
+ .N{
+    border:3px solid black;
+    border-radius: 3px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+ }
+ .BL{
+    color: crimson;
+ }
+ #box{
+    display: flex;
+    justify-content: center;
+ }
+ #box1{
+    display: flex;
+    justify-content: center;
+ }
+ #box2{
+    display: flex;
+    justify-content: center;
+ }
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: 2px double orange;
+    display: flex;
+}

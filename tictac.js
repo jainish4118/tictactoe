@@ -34,9 +34,22 @@ const handleclick = (row, col) => {
         else if (arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2]) {
             winner = arr[0][0];
         }
-        console.log(winner);
+        else if (!winner) {
+            let tie=1;
+            for (let row = 0; row < 3; row++) {
+                for (let col = 0; col < 3; col++) {
+                    if (arr[row][col] === null) {
+                        tie=0;
+                        break;
+                    }
+                }
+            }
+            if (tie) {
+                winner = 'TIE';
+            }
+        }
         if (winner) {
-            document.getElementById('winner').innerHTML = "winner :" + winner;
+            document.getElementById('winner').innerHTML = "WINNER:" + winner;
         }
     }
 };

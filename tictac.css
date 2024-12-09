@@ -1,26 +1,29 @@
  .main{
-    background-color: lightblue;
- }
+    background-color: grey;
+}
  #navbar{
     text-align: center;
     margin-bottom: 0px;
     font-size: 30px;
     font-family: cursive;
-    color:black ;
-    background-color: burlywood ;
- }
+   
+}
+.XO{
+   color: black;
+}
  #winner{
 justify-content: center;
-text-align: center;
+text-align: cener;
 display: flex;
-font-size: 25px;
+font-size: 25px;  
 font-family: cursive;
  }
 .N{
-    border:3px solid black;
-    border-radius: 3px;
+    border:2.5px groove black; 
+    background-color: burlywood;
+    border-radius: 16px;
     margin-bottom: 25px;
- }
+}
  .BL{
     color: crimson;
  }
